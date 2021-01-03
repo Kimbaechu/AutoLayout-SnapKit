@@ -18,10 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        self.window = UIWindow(windowScene: scene)
         let vc1 = ViewController()
         let vc2 = SnpViewController()
+        let vc3 = ThenViewController()
         let nav1 = UINavigationController(rootViewController: vc1)
         let nav2 = UINavigationController(rootViewController: vc2)
+        let nav3 = UINavigationController(rootViewController: vc3)
         let tab = UITabBarController()
-        tab.viewControllers = [nav1, nav2]
+        tab.viewControllers = [nav1, nav2, nav3]
         tab.selectedIndex = 0
         
         nav1.tabBarItem.title = "UIKit"
@@ -29,6 +31,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         nav2.tabBarItem.title = "SnapKit"
         nav2.tabBarItem.image = UIImage(systemName: "house")
+        
+        nav3.tabBarItem.title = "Then"
+        nav3.tabBarItem.image = UIImage(systemName: "star")
+        
         self.window?.rootViewController = tab
         self.window?.makeKeyAndVisible()
         

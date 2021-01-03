@@ -47,10 +47,8 @@ class ViewController: UIViewController {
     }
     
     private func createUI() {
-        
         self.navigationItem.title = "UIKit"
         view.addSubview(tableView)
-        
         tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
         tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
         tableView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0).isActive = true

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251CC8B825A1CE3000E58956 /* ThenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251CC8B725A1CE3000E58956 /* ThenViewController.swift */; };
+		251CC8BB25A1CE3D00E58956 /* ThenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251CC8BA25A1CE3D00E58956 /* ThenTableViewCell.swift */; };
 		2526B2C9259F0AF400B1E653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526B2C8259F0AF400B1E653 /* AppDelegate.swift */; };
 		2526B2CB259F0AF400B1E653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526B2CA259F0AF400B1E653 /* SceneDelegate.swift */; };
 		2526B2CD259F0AF400B1E653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2526B2CC259F0AF400B1E653 /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251CC8B725A1CE3000E58956 /* ThenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThenViewController.swift; sourceTree = "<group>"; };
+		251CC8BA25A1CE3D00E58956 /* ThenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThenTableViewCell.swift; sourceTree = "<group>"; };
 		2526B2C5259F0AF400B1E653 /* SnapKitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2526B2C8259F0AF400B1E653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2526B2CA259F0AF400B1E653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			children = (
 				25C0CD52259F729B008694F4 /* MyTableViewCell.swift */,
 				25EE2EE925A0291500297C0F /* SnpTableViewCell.swift */,
+				251CC8BA25A1CE3D00E58956 /* ThenTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			children = (
 				2526B2CC259F0AF400B1E653 /* ViewController.swift */,
 				25EE2EE325A019AC00297C0F /* SnpViewController.swift */,
+				251CC8B725A1CE3000E58956 /* ThenViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EE2EE425A019AC00297C0F /* SnpViewController.swift in Sources */,
+				251CC8B825A1CE3000E58956 /* ThenViewController.swift in Sources */,
+				251CC8BB25A1CE3D00E58956 /* ThenTableViewCell.swift in Sources */,
 				25EE2EE1259FFB0900297C0F /* Model.swift in Sources */,
 				2526B2CD259F0AF400B1E653 /* ViewController.swift in Sources */,
 				25C0CD53259F729B008694F4 /* MyTableViewCell.swift in Sources */,
